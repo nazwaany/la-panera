@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Panera</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="boxnav1">
+                    <img class="gambarlogo" src="logo.jpg" alt="logo">
+                </div>
+                
+                <div class="boxnav2">
+                    <p class="itemnav beranda"><a class="itemlink" href="beranda.html#beranda">beranda</a></p>
+                    <p class="itemnav menu"><a class="itemlink" href="beranda.html#menu">menu</a></p>
+                    <p class="itemnav kontak"><a class="itemlink" href="kontak.html">kontak</a></p>
+                </div>
+
+                <div class="boxnav3">
+                    <a href="daftarakun.html"><i class="fa-solid fa-user fa-2xl shop"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="boxlanding" id="beranda">
+        <div class="deskripsibox">
+            <h1 class="namatoko landing">La Panera</h1>
+            <p  class="deskripsi landing">Menyediakan berbagai macam roti dengan cita rasa Prancis. Dibuat dengan bahan terbaik dan penuh perhatian. Rasanya autentik dan sempurna, benar-benar membawa Anda ke jantung Paris dalam setiap gigitan.</p>
+            <a class="pesansekaranglink" href="all menu.html"><p class="pesansekarang">Pesan Sekarang</p></a>
+        </div>
+    </div>
+
+    <div class="judulbestseller">
+        <h1 class="headingbs">Best Seller</h1>
+    </div>
+
+    <div class="bestsellerbox">
+        <div class="bestseller1 bsitem">
+            <div class="gambarbestseller1">
+                <p></p>
+            </div>
+            <a href="" class="bslink bslink1"><div class="textbestseller1">
+                <p class="croissant">Croissant</p>
+                <p class="tulisanbs1 ratingbs">
+                    <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i> <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i> <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i> <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i> <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+                </p>
+                <p class="tulisanbs1 hargabs">Rp.12.000,00</p>
+                <p class="tulisanbs terjualbs">900+ terjual</p>
+            </div></a>
+        </div>
+        <a href="" class="bslink"><div class="bestseller2 bsitem">
+            <div class="gambarbestseller2">
+                <p></p>
+            </div>
+            <div class="textbestseller2">
+                <p class="tulisanbs2 macaroonbs">Macaroon</p>
+                <p class="tulisanbs2 ratemacaronbs">
+                    <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+                </p>
+                <p class="tulisanbs2 hargamacaroonbs">Rp.35.000,00</p>
+                <p class="tulisanbs2 terjualmacaroonbs">700+ terjual</p>
+            </div>
+        </div></a>
+        <a href="" class="bslink"><div class="bestseller3 bsitem">
+            <div class="gambarbestseller3">
+                <p></p>
+            </div>
+            <div class="textbestseller3">
+                <p class="tulisanbs3">Éclair coklat</p>
+                <p class="tulisanbs3">
+                    <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+                </p>
+                <p class="tulisanbs3">Rp.8.000,00</p>
+                <p class="tulisanbs3 terjualbs3">600+ terjual</p>
+            </div>
+        </div></a>
+    </div>
+
+    <div class="boxdiskon">
+        <div class="textdiskon diskon">
+            <p class="pdiskon1 diskonitem">Diskon</p>
+            <h1 class="h20 diskonitem">20%</h1>
+            <p class="pdiskon2 diskonitem">Untuk pembelian pertama</p>
+        </div>
+    </div>
+
+    <div>
+        <h1 id="menu" class="hdaftarmenu">Daftar Menu</h1>
+    </div>
+
+    <div class="daftarmenubox">
+        <a href="" class="dmlink"><div class="daftarmenuitem dm1">
+            <div class="gambardm1">
+                <p></p>
+            </div>
+            <div class="tulisandm1">
+                <p>Croissant isi coklat</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.15.000,00</p>
+                <p class="terjualdm1">terjual 500+</p>
+            </div>
+        </div></a>
+
+        <a href="" class="dmlink"><div class="daftarmenuitem dm2">
+            <div class="gambardm2">
+                <p></p>
+            </div>
+            <div class="tulisandm2">
+                <p>Madeleine</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.30.000,00</p>
+                <p class="terjualdm2">terjual 500+</p>
+            </div>
+        </div></a>
+
+        <a href="" class="dmlink"><div class="daftarmenuitem dm3">
+            <div class="gambardm3">
+                <p></p>
+            </div>
+            <div class="tulisandm3">
+                <p>Éclair tiramisu</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.9.000,00</p>
+                <p class="terjualdm3">terjual 400+</p>
+            </div>
+        </div></a>
+
+        <a href="" class="dmlink"><div class="daftarmenuitem dm4">
+            <div class="gambardm4">
+                <p></p>
+            </div>
+            <div class="tulisandm4">
+                <p>Mille-feuille</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.20.000,00</p>
+                <p class="terjualdm4">terjual 400+</p>
+            </div>
+        </div></a>
+        
+        <a href="" class="dmlink"><div class="daftarmenuitem dm5">
+            <div class="gambardm5">
+                <p></p>
+            </div>
+            <div class="tulisandm5">
+                <p>Croissant isi green tea</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.15.000,00</p>
+                <p class="terjualdm5">terjual 400+</p>
+            </div>
+        </div></a>
+        
+        <a href="" class="dmlink"><div class="daftarmenuitem dm6">
+            <div class="gambardm6">
+                <p></p>
+            </div>
+            <div class="tulisandm6">
+                <p>Baguette</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.13.000,00</p>
+                <p class="terjualdm6">terjual 300+</p>
+            </div>
+        </div></a>
+        
+        <a href="" class="dmlink"><div class="daftarmenuitem dm7">
+            <div class="gambardm7">
+                <p></p>
+            </div>
+            <div class="tulisandm7">
+                <p>Brioche</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.38.000,00</p>
+                <p class="terjualdm7">terjual 300+</p>
+            </div>
+        </div></a>
+
+        <a href="" class="dmlink"><div class="daftarmenuitem dm8">
+            <div class="gambardm8">
+                <p></p>
+            </div>
+            <div class="tulisandm8">
+                <p>Apple tart</p>
+                <p>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i>
+                </p>
+                <p>Rp.45.000,00</p>
+                <p class="terjualdm8">terjual 300+</p>
+            </div>
+        </div></a>
+
+        <a href="all menu.html" class="arrowdm"><div class="arrowdm">
+            <p><i class="fa-solid fa-arrow-right fa-2xl"></i></p>
+        </div></a>
+    </div>
+
+    <div class="tentangkamibox" id="tentangkami">
+        <div class="tentangkamitext">
+            <h1 class="headingtk tkitem">Tentang Kami</h1>
+            <p class="tulisantk tkitem">Toko roti kami menyajikan berbagai pastry Prancis autentik dengan cita rasa yang khas dan kualitas terbaik. Dengan berbagai cabang yang telah tersebar di berbagai negara, kami selalu siap memanjakan lidah Anda dengan pilihan croissant, pain au chocolat, dan berbagai hidangan lezat lainnya, yang dibuat dengan penuh keahlian dan cinta. Rasakan kenikmatan sejati dalam setiap gigitan!</p>
+        </div>
+        <div class="gambartentangkami">
+            <p></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+
+            <div class="iconfooter">
+                <a href=""><p class="scfooter">
+                    <i class="fa-brands fa-instagram fa-2xl " style="color: #ffffff;"></i>
+                </p></a>
+
+                <a href=""><p class="scfooter">
+                    <i class="fa-brands fa-x-twitter fa-2xl " style="color: #ffffff;"></i>
+                </p></a>
+
+                <a href=""><p class="scfooter">
+                    <i class="fa-brands fa-facebook-f fa-2xl " style="color: #ffffff;"></i>
+                </p></a>
+
+                <a href=""><p class="scfooter">
+                    <i class="fa-regular fa-envelope fa-2xl " style="color: #ffffff;"></i>
+                </p></a>
+            </div>
+
+            <div class="textfooter">
+                    <p class="textitemfooter"><a href="beranda.html#beranda" class="textitemfooter">Beranda</a></p>
+                    
+                    <p class="textitemfooter"><a href="beranda.html#menu" class="textitemfooter">Menu</a></p>
+
+                    <p class="textitemfooter"><a href="beranda.html#tentangkami" class="textitemfooter">Tentang Kami</a></p>
+
+                    <p class="textitemfooter"><a href="kontak.html" class="textitemfooter">Kontak</a></p>
+
+                    <p class="textitemfooter"><a href="pelayanankami.html" class="textitemfooter">Pelayanan Kami</a></p>
+
+            </div>
+
+            <div class="alamatfooter">
+                <p>Jln.Kb Bwang XV B No.15 B, RT.19/RW.7, Kb. Bawang, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14320</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

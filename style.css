@@ -1,0 +1,1336 @@
+/* navbar */
+nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+}
+
+.boxnav2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemnav {
+    margin: auto;
+}
+
+.itemlink {
+    text-decoration: none;
+    color: black;
+}
+
+.itemlink:hover{
+    color: #884A39;
+}
+
+.itemlink:active {
+    color: #46352d;
+}
+
+.boxnav1 {
+    max-width: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 5%;
+}
+
+.gambarlogo {
+    min-width: 40px;
+    padding: auto;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.boxnav3 {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.fa-solid{
+    margin: auto;
+    color: black;
+}
+
+.fa-solid:hover {
+    color: #884A39;
+}
+
+.fa-solid:active {
+    color: #46352d;
+}
+
+/* landing page */
+
+.boxlanding {
+    background: rgba(0,0,0,0.7) url(background\ beranda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 400px;
+    margin-top: 61px;
+    padding-top: 100px;
+}
+
+.landing {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.namatoko {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin: 0px;
+}
+
+.deskripsi {
+    font-size:medium;
+    margin: 20px auto;
+    width: 700px;
+}
+
+.pesansekarang {
+    background-color: rgb(255, 255, 255, 0.2);
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pesansekaranglink {
+    text-decoration: none;
+}
+
+.pesansekarang:hover {
+    background-color: white;
+    color: black;
+}
+
+.pesansekarang:active {
+    background-color: black;
+    color: white;
+}
+
+/* best seller page */
+
+.judulbestseller {
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+    color: #884A39;
+}
+
+.bestsellerbox {
+    display: grid;
+    background-color: white;
+    height: 450px;
+    padding: 2% 7%;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20px;
+}
+
+.bsitem {
+    background-color: white;
+    margin: 10px;
+}
+
+.bestseller1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    display: block;
+}
+
+
+.gambarbestseller1 {
+    background-image: url(croissant\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    height: 60%;
+}
+
+.textbestseller1 {
+    margin: 20px;
+    height: 30%;
+}
+
+.terjualbs {
+    color: rgba(0,0,0,0.5);
+}
+
+.bestseller1:hover {
+    background-color: #F9E0BB;
+}
+
+.bestseller1:active {
+    background-color: #884A39;
+}
+
+.textbestseller1:active {
+    color: white;
+}
+
+.bestseller2 {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+}
+
+.bestseller2:hover {
+    background-color: #F9E0BB;
+}
+
+.bestseller2:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambarbestseller2 {
+    background-image: url(macaroon\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.textbestseller2 {
+    width: 40%;
+}
+
+.terjualmacaroonbs {
+    color: rgba(0,0,0,0.5);
+}
+
+.bestseller3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    height: 82%;
+}
+
+.bestseller3:hover {
+    background-color: #F9E0BB;
+}
+
+.bestseller3:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambarbestseller3 {
+    background-image: url(eclair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.textbestseller3 {
+    width: 40%;
+}
+
+.terjualbs3 {
+    color: rgba(0,0,0,0.5);
+}
+
+.bslink {
+    text-decoration: none;
+    color: black;
+}
+
+.bslink1:active {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .bestsellerbox {
+        display: grid;
+        background-color: white;
+        height: 380px;
+        padding: 6% 1%;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 20px;
+    }
+
+    .bestseller1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        display: block;
+        height: 90%;
+    }
+    
+    .gambarbestseller1 {
+        background-image: url(croissant\ 2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: 50%;
+    }
+    
+    .textbestseller1 {
+        margin: 20px;
+        height: 15%;
+    }
+    
+    .terjualbs {
+        color: rgba(0,0,0,0.5);
+    }
+    
+    .bestseller2 {
+        height: 70%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+    
+    .bestseller2:hover {
+        background-color: #F9E0BB;
+    }
+    
+    .bestseller2:active {
+        background-color: #884A39;
+        color: white;
+    }
+    
+    .gambarbestseller2 {
+        background-image: url(macaroon\ 2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+    }
+    
+    .textbestseller2 {
+        width: 40%;
+    }
+    
+    .terjualmacaroonbs {
+        color: rgba(0,0,0,0.5);
+    }
+    
+    .bestseller3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        height: 70%;
+    }
+    
+    .gambarbestseller3 {
+        background-image: url(eclair\ -\ Copy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+    }
+    
+    .textbestseller3 {
+        width: 40%;
+    }
+    
+    .terjualbs3 {
+        color: rgba(0,0,0,0.5);
+    }
+    
+    .bslink {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/* diskon */
+
+.boxdiskon {
+    height: 200px;
+    background-image: url(c.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    padding-left: 7%;
+}
+
+.diskon {
+    justify-content: space-between;
+    background-color: #884A39;
+}
+
+.textdiskon {
+    margin-right: 2%;
+    padding: 0px 10px;
+    width: 20%;
+    padding-top: 20px;
+}
+
+.pdiskon1 {
+    color: #F9E0BB;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.h20 {
+    font-size: 65px;
+    color: #F9E0BB;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pdiskon2 {
+    color: #F9E0BB;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Daftar Menu */
+
+.hdaftarmenu {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    color: #884A39;
+}
+
+.daftarmenubox {
+    background-color: rgb(255, 255, 255);
+    height: 860px;
+    display: grid;
+    justify-content: space-evenly;
+    gap: 5%;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 45% 45% ;
+    padding: 3%;
+}
+
+.daftarmenuitem {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    height: 95%;
+}
+
+.dmlink {
+    color: black;
+    text-decoration: none;
+}
+
+.dm1 {
+    padding: 0px 10px;
+}
+
+.dm1:hover {
+    background-color: #F9E0BB;
+}
+
+.dm1:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm1 {
+    background-image: url(croissant\ coklat\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm1 {
+    height: 35%;
+}
+
+.terjualdm1 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm2 {
+    padding: 0px 10px;
+}
+
+.dm2:hover {
+    background-color: #F9E0BB;
+}
+
+.dm2:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm2 {
+    background-image: url(madeleine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm2 {
+    height: 35%;
+}
+
+.terjualdm2 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm3 {
+    padding: 0px 10px;
+}
+
+.dm3:hover {
+    background-color: #F9E0BB;
+}
+
+.dm3:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm3 {
+    background-image: url(eclair\ dm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm3 {
+    height: 35%;
+}
+
+.terjualdm3 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm4 {
+    padding: 0px 10px;
+}
+
+.dm4:hover {
+    background-color: #F9E0BB;
+}
+
+.dm4:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm4 {
+    background-image: url(mille.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm4 {
+    height: 35%;
+}
+
+.terjualdm4 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm5 {
+    padding: 0px 10px;
+}
+
+.dm5:hover {
+    background-color: #F9E0BB;
+}
+
+.dm5:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm5 {
+    background-image: url(croissant\ green\ tea\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm5 {
+    height: 35%;
+}
+
+.terjualdm5 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm6 {
+    padding: 0px 10px;
+}
+
+.dm6:hover {
+    background-color: #F9E0BB;
+}
+
+.dm6:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm6 {
+    background-image: url(baguette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm6 {
+    height: 35%;
+}
+
+.terjualdm6 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm7 {
+    padding: 0px 10px;
+}
+
+.dm7:hover {
+    background-color: #F9E0BB;
+}
+
+.dm7:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm7 {
+    background-image: url(brioche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm7 {
+    height: 35%;
+}
+
+.terjualdm7 {
+    color: rgba(0,0,0,0.5);
+}
+
+.dm8 {
+    padding: 0px 10px;
+}
+
+.dm8:hover {
+    background-color: #F9E0BB;
+}
+
+.dm8:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.gambardm8 {
+    background-image: url(apple\ tart\ french.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.tulisandm8 {
+    height: 35%;
+}
+
+.terjualdm8 {
+    color: rgba(0,0,0,0.5);
+}
+
+.arrowdm {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 100%;
+    text-align: end;
+}
+
+/* tentang kami */
+
+.tentangkamibox {
+    background-color:rosybrown;
+    margin-top: 90px;
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+
+.tentangkamitext {
+    background-color: #46352d;
+    width: 45%;
+    padding: 3%;
+}
+
+.gambartentangkami {
+    width: 55%;
+    background: rgba(0,0,0,0.2) url(pastry\ tentang\ kami.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.tkitem {
+    color: white;
+}
+
+.headingtk {
+    font-size: 50px;
+}
+
+.tulisantk {
+    line-height: 30px;
+}
+
+/* footer */
+
+.footer {
+    background-color: black;
+    display: grid;
+    padding-top: 60px;
+}
+
+.iconfooter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.scfooter {
+    margin: 0px 50px;
+}
+
+.textfooter {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textitemfooter {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.textitemfooter:hover {
+    color: #884A39;
+}
+
+.textitemfooter:active {
+    color: #46352d;
+}
+
+.alamatfooter {
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+/* Kontak kami */
+
+.landingkontak {
+    background: rgba(0,0,0,0.7) url(gambar\ kontak\ 2.5.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 280px;
+    margin-top: 61px;
+    padding-top: 100px;
+}
+
+.tulisankontak {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.hkontakkami {
+    font-size: 70px;
+    margin: 0px;
+}
+
+.tulisanisikontakkami {
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Kontak media sosial */
+.infokontak {
+    height: 710px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.sosialmediakontak {
+    background-color: #46352d;
+    padding: 10% 15%;
+}
+
+.iconmedsos {
+    color: white;
+    margin: 10px;
+    word-spacing: 25px;
+    text-decoration: none;
+}
+
+.iconmedsos:hover {
+    color: #884A39;
+}
+
+.iconmedsos:active {
+    color: #F9E0BB;
+}
+
+.alamatkontak {
+    color: white;
+    text-align: justify;
+}
+
+.formulirkontak {
+    padding: 0px 10%;
+    padding-bottom: 5%;
+}
+
+.headingformulirkontak {
+    color: #884A39;
+    text-align: center;
+    font-size: 50px;
+}
+
+.penjelasanformulir {
+    text-align: justify;
+}
+
+.kontaknama {
+    color: #884A39;
+    font-size: 20px;
+}
+
+#masukkannama {
+    width: 450px;
+    height: 30px;
+    border: 1px solid #46352d;
+    border-radius: 5px;
+}
+
+.kontakemail {
+    color: #884A39;
+    font-size: 20px;
+}
+
+#masukkanemail {
+    width: 450px;
+    height: 30px;
+    border: 1px solid #46352d;
+    border-radius: 5px;
+}
+
+.kontakpesan {
+    color: #884A39;
+    font-size: 20px;
+}
+
+#masukkanpesan {
+    width: 450px;
+    height: 100px;
+    border: 1px solid #46352d;
+    border-radius: 5px;
+}
+
+.kontakkirim {
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    background-color: #884A39;
+    border: 2px solid #46352d;
+    color: white;
+    border-radius: 5px;
+}
+
+.kontakkirim:hover {
+    background-color: #F9E0BB;
+    color: black;
+}
+
+.kontakkirim:active {
+    background-color: #46352d;
+    color: #F9E0BB;
+}
+
+/* buat akun */
+
+.halamanbuatakun {
+    margin-top: 61px;
+    background: rgba(0,0,0,0.5) url(roti\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 550px;
+    display: flex;
+}
+
+.formulirbuatakun {
+    background: transparent;
+    border: 1px solid rgb(108, 108, 108);
+    box-shadow: 15px 0px 50px black;
+    backdrop-filter: blur(5px);
+    width: 60%;
+    border-radius: 0px 70px 70px 0px;
+}
+
+.headingbuatakun {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.buatakunitem {
+    margin-left: 20%;
+}
+
+.buatakunnama {
+    font-size: 20px;
+    color: white;
+}
+
+.buatakunemail {
+    font-size: 20px;
+    color: white;
+}
+.buatakunkatasandi {
+    font-size: 20px;
+    color: white;
+}
+
+#namabuatakun {
+    height: 30px;
+    width: 40%;
+    border: 1px solid rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+#emailbuatakun {
+    height: 30px;
+    width: 40%;
+    border: 1px solid rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+#katasandibuatakun {
+    height: 30px;
+    width: 40%;
+    border: 1px solid rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+.buatakunlogin {
+    color: white;
+    text-decoration: none;
+}
+
+.buatakunlogin:hover {
+    color: #884A39;
+}
+
+.buatakunlogin:active {
+    color: #46352d;
+}
+
+.kirimbuatakun {
+    background-color: #F9E0BB;
+    color: #000000;
+    border: 1px solid #46352d;
+    border-radius: 5px;
+    height: 40px;
+    width: 40%;
+}
+
+.kirimbuatakun:hover {
+    background-color: #884A39;
+    color: #F9E0BB;
+}
+
+.kirimbuatakun:active {
+    background-color: #46352d;
+    color: #F9E0BB;
+}
+
+/* login */
+
+.halamanlogin {
+    margin-top: 61px;
+    background: rgba(0,0,0,0.5) url(pastry\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 550px;
+    display: flex;
+}
+
+/* Pelayanan kami */
+
+.boxlandingpelayanankami {
+    margin-top: 61px;
+    background: rgba(0,0,0,0.5) url(pelayanan\ kami\ gambar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 150px;
+    padding-top: 90px;
+}
+
+.pelayanankami {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+}
+
+.pelayanankami1 {
+    display: grid;
+    height: 620px;
+    justify-content: space-evenly;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4%;
+    padding: 2%;
+    padding-top: 90px;
+}
+
+.itempelayanankami1 {
+    background-color: white;
+    padding: 3%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+
+}
+
+.iconpk {
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.headingpkitem {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.katapkitem {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.pelayanankami2 {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 0px;
+}
+
+.pelayanankami2box {
+    background-color: #46352d;
+    height: 80%;
+    margin: auto;
+    width: 70%;
+    border-radius: 0px 100px 0px 100px;
+    display: flex;
+}
+
+.pk2item {
+    width: 50%;
+}
+
+.katapk2 {
+    border-radius: 0px 0px 0px 100px;
+    padding: 5%;
+    color: white;
+}
+
+.gambarpk2 {
+    border-radius: 0px 100px 0px 0px;
+    background: url(mille\ pk\ 2.jpg);
+    background-size: cover;
+}
+
+.katapk2itemp {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.pesanpelayanankami {
+    background-color: #884A39;
+    display: flex;
+}
+
+.katapesanpelayanankami {
+    width: 40%;
+    padding-left: 30%;
+    color: white;
+    font-size: larger;
+    margin-top: 30px;
+}
+
+.pesansekarangpelayanankami {
+    color: #46352d;
+    font-size: larger;
+    background-color: #F9E0BB;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.pesansekarangpelayanankamilink {
+    text-decoration: none;
+}
+
+.pesansekarangpelayanankami:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: #46352d;
+}
+
+.pesansekarangpelayanankami:active {
+    color: #ffffff;
+    border: 1px solid white;
+    background-color: #884A39;
+}
+
+/* all menu */
+
+.allmenubox {
+    height: 1000px;
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 37% 37% 37% 37% 37% 37% 37%;
+    gap: 5%;
+    padding: 0px 2%;
+    justify-content: space-evenly;
+}
+
+.allmenuitem {
+    text-align: center;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.allmenuitem:hover {
+    background-color: #F9E0BB;
+}
+
+.allmenuitem:active {
+    background-color: #884A39;
+    color: white;
+}
+
+.amword {
+    height: 40%;
+}
+
+.gambaram1 {
+    background: url(croissant\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.gambaram2 {
+    background: url(macaroon\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.gambaram3 {
+    background: url(eclair.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.gambaram4 {
+    background: url(croissant\ coklat\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram5 {
+    background: url(madeleine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram6 {
+    background: url(eclair\ dm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram7 {
+    background: url(mille.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram8 {
+    background: url(croissant\ green\ tea\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram9 {
+    background: url(baguette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram10 {
+    background: url(brioche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram11 {
+    background: url(apple\ tart\ french.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram12 {
+    background: url(croissant\ keju.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram13 {
+    background: url(eclair\ matcha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram14 {
+    background: url(financier\ coklat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram15 {
+    background: url(eclair\ kopi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram16 {
+    background: url(profiteroles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram17 {
+    background: url(canele.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram18 {
+    background: url(financier\ beri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram19 {
+    background: url(financier\ lemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram20 {
+    background: url(palmiers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram21 {
+    background: url(gateu\ basque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram22 {
+    background: url(galette\ des\ rois.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram23 {
+    background: url(kouign\ amann.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram24 {
+    background: url(vacherin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram25 {
+    background: url(baba\ au\ rhum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram26 {
+    background: url(gateu\ opera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.gambaram27 {
+    background: url(saint\ honore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
